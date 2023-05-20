@@ -11,7 +11,7 @@ import SwiftUI
 struct CleanMVVMApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UsersConfigurator.configureUsersView()
         }
     }
 }
